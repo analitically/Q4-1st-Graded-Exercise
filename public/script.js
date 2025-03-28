@@ -13,6 +13,12 @@ function solve(){
     console.log(formData.get('gender'));
     let gender = formData.get('gender');
 
+    // gets number of guests
+    console.log(formData.get('number'));
+    let number = formData.get('number');
+
+    //gets names of guests
+    console.log(formData.get('guests'));
   
     /* Use the songs below needed in this exercise:
     
