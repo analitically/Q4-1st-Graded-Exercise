@@ -24,6 +24,13 @@ app.get("/", (req, res) => {
 
 // Create express route binder for draw.hbs and get the data from the url as parameters
 // that came from index.hbs
+app.get("/happy", (req, res) => {
+  res.render("index");
+});
+
+app.post("/happy", (req, res) => {
+  res.render("index");
+});
 
 
 
