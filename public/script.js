@@ -19,6 +19,7 @@ function solve(){
 
     //gets names of guests
     console.log(formData.get('guests'));
+    let guests = formData.get('guests');
   
     /* Use the songs below needed in this exercise:
     
